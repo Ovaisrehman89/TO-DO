@@ -3,8 +3,8 @@ const app = express();
 app.use(express.json());
 
 const todoList = [
-  { id: 1, title: "Buy groceries", completed: false },
-  { id: 2, title: "Finish homework", completed: true }
+  { id: 1, title: "Assignment Submission", completed: false },
+  { id: 2, title: "Attend Class", completed: true }
 ];
 
 app.get('/', (req, res) => {
